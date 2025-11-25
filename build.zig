@@ -14,6 +14,7 @@ pub fn build(b: *Build) void {
             .root_source_file = b.path("tools/generate.zig"),
             .target = target,
             .optimize = optimize,
+
         }),
     });
 
